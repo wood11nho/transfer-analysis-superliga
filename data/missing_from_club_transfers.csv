@@ -1,0 +1,247 @@
+﻿row_index,season,window,transfer_type,player_name,player_url,team_name,club_2,country_2,league_2,country,league,transfer_fee,is_loan,transfer_notes,why_missing
+47,2003,Summer,Departures,Marius Luca,https://www.transfermarkt.com/marius-luca/profil/spieler/371018,FC Brasov (- 2017),,,,,,,False,-,club_2 is empty/null
+93,2006,Summer,Departures,Dragos Radu,https://www.transfermarkt.com/dragos-radu/profil/spieler/316060,FC Arges Pitesti (- 2013),,,,,,,False,-,club_2 is empty/null
+116,2003,Summer,Departures,Adrian Blid,https://www.transfermarkt.com/adrian-blid/profil/spieler/497672,FC Arges Pitesti (- 2013),,,,,,,False,-,club_2 is empty/null
+149,2003,Summer,Departures,Răzvan Lucescu,https://www.transfermarkt.com/razvan-lucescu/profil/spieler/215606,FC Rapid 1923,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+174,2003,Summer,Departures,Leontin Grozavu,https://www.transfermarkt.com/leontin-grozavu/profil/spieler/993,CSM Ceahlaul Piatra Neamt,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+175,2003,Summer,Departures,Radu Lefter,https://www.transfermarkt.com/radu-lefter/profil/spieler/358529,CSM Ceahlaul Piatra Neamt,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+176,2003,Summer,Departures,Mihai Ionescu,https://www.transfermarkt.com/mihai-ionescu/profil/spieler/609050,CSM Ceahlaul Piatra Neamt,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+263,2003,Summer,Departures,Stelian Bordieanu,https://www.transfermarkt.com/stelian-bordieanu/profil/spieler/630994,SC Otelul Galati,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+264,2003,Summer,Departures,Catalin Tofan,https://www.transfermarkt.com/catalin-tofan/profil/spieler/624595,SC Otelul Galati,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+265,2003,Summer,Departures,Costin Males,https://www.transfermarkt.com/costin-males/profil/spieler/624597,SC Otelul Galati,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+307,2003,Summer,Departures,Dan Petrescu,https://www.transfermarkt.com/dan-petrescu/profil/spieler/102023,Progresul Bucharest (- 2009),,,,,,,False,-,club_2 is empty/null
+308,2003,Summer,Departures,Daniel Prodan,https://www.transfermarkt.com/daniel-prodan/profil/spieler/102025,Progresul Bucharest (- 2009),,,,,,,False,-,club_2 is empty/null
+331,2003,Summer,Departures,Florin Constantinovici,https://www.transfermarkt.com/florin-constantinovici/profil/spieler/188665,Politehnica Timisoara (- 2012),,,,,,,False,-,club_2 is empty/null
+332,2003,Summer,Departures,Steve Reese,https://www.transfermarkt.com/steve-reese/profil/spieler/777532,Politehnica Timisoara (- 2012),,,,,,,False,-,club_2 is empty/null
+377,2003,Summer,Departures,Ioan Miszti,https://www.transfermarkt.com/ioan-miszti/profil/spieler/290958,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+378,2003,Summer,Departures,Vasile Oana,https://www.transfermarkt.com/vasile-oana/profil/spieler/117550,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+379,2003,Summer,Departures,Dorel Zegrean,https://www.transfermarkt.com/dorel-zegrean/profil/spieler/186727,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+579,2004,Summer,Departures,Pavel Badea,https://www.transfermarkt.com/pavel-badea/profil/spieler/214355,FC U Craiova 1948,,,,,,,False,-,club_2 is empty/null
+752,2004,Summer,Departures,Ioan Pap-Deac,https://www.transfermarkt.com/ioan-pap-deac/profil/spieler/374349,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+753,2004,Summer,Departures,Sebastian Moga,https://www.transfermarkt.com/sebastian-moga/profil/spieler/182018,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+754,2004,Summer,Departures,Catalin Necula,https://www.transfermarkt.com/catalin-necula/profil/spieler/359190,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+837,2004,Winter,Departures,Sead Kolasinac,https://www.transfermarkt.com/sead-kolasinac/profil/spieler/317738,CFR Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+858,2004,Winter,Departures,Laurentiu Lica,https://www.transfermarkt.com/laurentiu-lica/profil/spieler/149326,AFC Unirea 1924 (- 2022),,,,,,,False,-,club_2 is empty/null
+909,2005,Summer,Departures,Liviu Ciobotariu,https://www.transfermarkt.com/liviu-ciobotariu/profil/spieler/103212,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+935,2005,Summer,Departures,Cristian Ciocoiu,https://www.transfermarkt.com/cristian-ciocoiu/profil/spieler/26490,FCSB,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+1112,2005,Summer,Departures,Leonard Nemtanu,https://www.transfermarkt.com/leonard-nemtanu/profil/spieler/173051,SC Otelul Galati,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+1114,2005,Summer,Departures,Georgel Toporan,https://www.transfermarkt.com/georgel-toporan/profil/spieler/304714,SC Otelul Galati,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+1154,2005,Summer,Departures,Daniel Baston,https://www.transfermarkt.com/daniel-baston/profil/spieler/944499,CFR Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+1276,2005,Summer,Departures,Costel Câmpeanu,https://www.transfermarkt.com/costel-campeanu/profil/spieler/222040,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+1277,2005,Summer,Departures,Vasile Popa,https://www.transfermarkt.com/vasile-popa/profil/spieler/170806,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+1444,2006,Winter,Departures,Dennis Șerban,https://www.transfermarkt.com/dennis-serban/profil/spieler/7581,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+1469,2006,Summer,Departures,Valentin Velcea,https://www.transfermarkt.com/valentin-velcea/profil/spieler/300302,Politehnica Timisoara (- 2012),,,,,,,False,-,club_2 is empty/null
+1470,2006,Summer,Departures,Florin Bătrânu,https://www.transfermarkt.com/florin-batranu/profil/spieler/182385,Politehnica Timisoara (- 2012),,,,,,,False,-,club_2 is empty/null
+1604,2006,Summer,Departures,Vasile Jercalau,https://www.transfermarkt.com/vasile-jercalau/profil/spieler/182012,Unirea Urziceni ( - 2011),,,,,,,False,-,club_2 is empty/null
+1665,2006,Summer,Departures,Constantin Enache,https://www.transfermarkt.com/constantin-enache/profil/spieler/358556,UTA Arad,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+1708,2006,Summer,Departures,Florin Prunea,https://www.transfermarkt.com/florin-prunea/profil/spieler/20658,Progresul Bucharest (- 2009),,,,,,,False,-,club_2 is empty/null
+1806,2006,Summer,Departures,Marius Neculai,https://www.transfermarkt.com/marius-neculai/profil/spieler/302111,SC Otelul Galati,,,,Romania,SuperLiga,,False,?,club_2 is empty/null
+1857,2006,Summer,Departures,Eugen Anghel,https://www.transfermarkt.com/eugen-anghel/profil/spieler/271085,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+1859,2006,Summer,Departures,Marius Șumudică,https://www.transfermarkt.com/marius-sumudica/profil/spieler/215547,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+1928,2006,Summer,Departures,Victor Naicu,https://www.transfermarkt.com/victor-naicu/profil/spieler/214841,Pandurii Targu Jiu (- 2022),,,,,,,False,-,club_2 is empty/null
+1979,2006,Summer,Departures,Marius Bratu,https://www.transfermarkt.com/marius-bratu/profil/spieler/518340,FC Vaslui (- 2014),,,,,,,False,-,club_2 is empty/null
+1999,2006,Winter,Departures,Vladimir Matijasevic,https://www.transfermarkt.com/vladimir-matijasevic/profil/spieler/34286,FC Vaslui (- 2014),,,,,,,False,-,club_2 is empty/null
+2220,2007,Summer,Departures,Viorel Moldovan,https://www.transfermarkt.com/viorel-moldovan/profil/spieler/5519,FC Rapid 1923,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+2310,2007,Summer,Departures,Kobi Nachtailer,https://www.transfermarkt.com/kobi-nachtailer/profil/spieler/16027,FC Vaslui (- 2014),,,,,,,False,-,club_2 is empty/null
+2341,2007,Summer,Departures,Viorel Tănase,https://www.transfermarkt.com/viorel-tanase/profil/spieler/47473,SC Otelul Galati,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+2395,2007,Summer,Departures,Laur Marian Astilean,https://www.transfermarkt.com/laur-marian-astilean/profil/spieler/46492,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+2503,2007,Winter,Departures,Martin Tudor,https://www.transfermarkt.com/martin-tudor/profil/spieler/26507,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+2536,2007,Summer,Departures,Constantin Ilie,https://www.transfermarkt.com/constantin-ilie/profil/spieler/249944,CSM Ceahlaul Piatra Neamt,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+2552,2007,Summer,Departures,Cristian Negru,https://www.transfermarkt.com/cristian-negru/profil/spieler/304719,UTA Arad,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+2562,2007,Winter,Departures,Marius Iordache,https://www.transfermarkt.com/marius-iordache/profil/spieler/26665,CSM Ceahlaul Piatra Neamt,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+2563,2007,Winter,Departures,Narcis Răducan,https://www.transfermarkt.com/narcis-raducan/profil/spieler/64285,CSM Ceahlaul Piatra Neamt,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+2581,2007,Summer,Departures,Dragos Stavaru,https://www.transfermarkt.com/dragos-stavaru/profil/spieler/48794,FC U Craiova 1948,,,,,,,False,-,club_2 is empty/null
+2582,2007,Summer,Departures,Ovidiu Stîngă,https://www.transfermarkt.com/ovidiu-stinga/profil/spieler/103223,FC U Craiova 1948,,,,,,,False,-,club_2 is empty/null
+2615,2007,Summer,Departures,Stefan Sorin Oncica,https://www.transfermarkt.com/stefan-sorin-oncica/profil/spieler/172786,UTA Arad,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+2650,2007,Summer,Departures,Cosmin Cristian Ursu,https://www.transfermarkt.com/cosmin-cristian-ursu/profil/spieler/47892,Pandurii Targu Jiu (- 2022),,,,,,,False,-,club_2 is empty/null
+2712,2007,Summer,Departures,Adrian Nedelea,https://www.transfermarkt.com/adrian-nedelea/profil/spieler/300418,CS Mioveni,,,,,,,False,-,club_2 is empty/null
+2769,2007,Winter,Departures,Mircea Gheorghiu,https://www.transfermarkt.com/mircea-gheorghiu/profil/spieler/886025,Farul Constanta (- 2016),,,,,,,False,-,club_2 is empty/null
+2794,2007,Summer,Departures,Viorel Ion,https://www.transfermarkt.com/viorel-ion/profil/spieler/54738,FC Gloria Buzau (1971 - 2016),,,,,,,False,-,club_2 is empty/null
+2960,2008,Winter,Departures,Alin Minteuan,https://www.transfermarkt.com/alin-minteuan/profil/spieler/43341,CFR Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+3075,2008,Summer,Departures,Philippe Léonard,https://www.transfermarkt.com/philippe-leonard/profil/spieler/5289,FC Rapid 1923,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+3121,2008,Winter,Departures,Nikola Jozic,https://www.transfermarkt.com/nikola-jozic/profil/spieler/35780,FC Gloria Buzau (1971 - 2016),,,,,,,False,-,club_2 is empty/null
+3137,2008,Winter,Departures,Rosen Kirilov,https://www.transfermarkt.com/rosen-kirilov/profil/spieler/3108,FC Vaslui (- 2014),,,,,,,False,-,club_2 is empty/null
+3296,2008,Summer,Departures,Iulian Arhire,https://www.transfermarkt.com/iulian-arhire/profil/spieler/48813,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+3297,2008,Summer,Departures,Florin Ganea,https://www.transfermarkt.com/florin-ganea/profil/spieler/48842,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+3298,2008,Summer,Departures,Ciprian Danciu,https://www.transfermarkt.com/ciprian-danciu/profil/spieler/62453,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+3350,2008,Summer,Departures,Robert Balaet,https://www.transfermarkt.com/robert-balaet/profil/spieler/48323,Pandurii Targu Jiu (- 2022),,,,,,,False,-,club_2 is empty/null
+3370,2008,Winter,Departures,Liviu Mihai,https://www.transfermarkt.com/liviu-mihai/profil/spieler/46592,Pandurii Targu Jiu (- 2022),,,,,,,False,-,club_2 is empty/null
+3441,2008,Winter,Departures,Filip Stankovic,https://www.transfermarkt.com/filip-stankovic/profil/spieler/79513,FC Gloria Buzau (1971 - 2016),,,,,,,False,-,club_2 is empty/null
+3474,2008,Summer,Departures,Marius Baciu,https://www.transfermarkt.com/marius-baciu/profil/spieler/13840,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+3475,2008,Summer,Departures,Nicolae Iorga,https://www.transfermarkt.com/nicolae-iorga/profil/spieler/232430,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+3476,2008,Summer,Departures,Flavius Somfalean,https://www.transfermarkt.com/flavius-somfalean/profil/spieler/81505,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+3622,2008,Winter,Departures,Iulian Crivac,https://www.transfermarkt.com/iulian-crivac/profil/spieler/46525,FC Arges Pitesti (- 2013),,,,,,,False,-,club_2 is empty/null
+3861,2009,Summer,Departures,Silviu Posteuca,https://www.transfermarkt.com/silviu-posteuca/profil/spieler/45302,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+3895,2009,Summer,Departures,Dănuț Perjă,https://www.transfermarkt.com/danut-perja/profil/spieler/34513,FC Rapid 1923,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+4019,2009,Summer,Departures,Bogdan Stelea,https://www.transfermarkt.com/bogdan-stelea/profil/spieler/32185,FC Brasov (- 2017),,,,,,,False,-,club_2 is empty/null
+4100,2009,Summer,Departures,Daniel Chirita,https://www.transfermarkt.com/daniel-chirita/profil/spieler/15648,Astra Giurgiu (- 2024),,,,,,,False,-,club_2 is empty/null
+4185,2009,Summer,Departures,Alejandro Gavatorta,https://www.transfermarkt.com/alejandro-gavatorta/profil/spieler/30719,Politehnica Iasi (1945 - 2010),,,,,,,False,-,club_2 is empty/null
+4235,2009,Winter,Departures,Claudiu Nicolae Boaru,https://www.transfermarkt.com/claudiu-nicolae-boaru/profil/spieler/81472,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+4292,2009,Winter,Departures,Sandu Negrean,https://www.transfermarkt.com/sandu-negrean/profil/spieler/46608,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+4328,2009,Summer,Departures,Angelo Alistar,https://www.transfermarkt.com/angelo-alistar/profil/spieler/26027,International Curtea de Arges (2000 - 2011),,,,,,,False,-,club_2 is empty/null
+4354,2009,Summer,Departures,Lucian Covrig,https://www.transfermarkt.com/lucian-covrig/profil/spieler/46524,CSM Ceahlaul Piatra Neamt,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+4378,2009,Winter,Departures,Tiberiu Rotaru,https://www.transfermarkt.com/tiberiu-rotaru/profil/spieler/134833,CSM Ceahlaul Piatra Neamt,,,,Romania,Liga 2,0.0,False,,club_2 is empty/null
+4534,2010,Summer,Departures,André Galiassi,https://www.transfermarkt.com/andre-galiassi/profil/spieler/48654,CFR Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+4607,2010,Summer,Departures,Cristian Munteanu,https://www.transfermarkt.com/cristian-munteanu/profil/spieler/26032,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+4697,2010,Winter,Departures,Cosmin Contra,https://www.transfermarkt.com/cosmin-contra/profil/spieler/5808,Politehnica Timisoara (- 2012),,,,,,,False,-,club_2 is empty/null
+5147,2010,Summer,Departures,Alexis Ngambi,https://www.transfermarkt.com/alexis-ngambi/profil/spieler/5616,Astra Giurgiu (- 2024),,,,,,,False,-,club_2 is empty/null
+5176,2010,Winter,Departures,Gheorghe Rohat,https://www.transfermarkt.com/gheorghe-rohat/profil/spieler/48896,Astra Giurgiu (- 2024),,,,,,,False,-,club_2 is empty/null
+5210,2010,Summer,Departures,Sorin Iodi,https://www.transfermarkt.com/sorin-iodi/profil/spieler/54737,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+5237,2010,Winter,Departures,Miguel De Pina,https://www.transfermarkt.com/miguel-de-pina/profil/spieler/156856,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+5271,2010,Summer,Departures,Flavius Moldovan,https://www.transfermarkt.com/flavius-moldovan/profil/spieler/35432,AS Ardealul Tg. Mures (- 2018),,,,,,,False,-,club_2 is empty/null
+5294,2010,Winter,Departures,Calin Tarnavean,https://www.transfermarkt.com/calin-tarnavean/profil/spieler/46664,AS Ardealul Tg. Mures (- 2018),,,,,,,False,-,club_2 is empty/null
+5333,2010,Summer,Departures,Marius Măldărășanu,https://www.transfermarkt.com/marius-maldarasanu/profil/spieler/34507,FC Brasov (- 2017),,,,,,,False,-,club_2 is empty/null
+5620,2011,Summer,Departures,Abel Valdez,https://www.transfermarkt.com/abel-valdez/profil/spieler/126034,Astra Giurgiu (- 2024),,,,,,,False,?,club_2 is empty/null
+5729,2011,Summer,Departures,Marius Popa,https://www.transfermarkt.com/marius-popa/profil/spieler/25941,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+5731,2011,Summer,Departures,Bogdan Buhus,https://www.transfermarkt.com/bogdan-buhus/profil/spieler/26641,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+5732,2011,Summer,Departures,Matteo Bonatti,https://www.transfermarkt.com/matteo-bonatti/profil/spieler/41919,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+5806,2011,Summer,Departures,Raúl Martín,https://www.transfermarkt.com/raul-martin/profil/spieler/16123,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+5846,2011,Summer,Departures,Gabriel Kajcsa,https://www.transfermarkt.com/gabriel-kajcsa/profil/spieler/64178,FC Brasov (- 2017),,,,,,,False,-,club_2 is empty/null
+6017,2011,Summer,Departures,Ilie Poenaru,https://www.transfermarkt.com/ilie-poenaru/profil/spieler/46627,Concordia Chiajna,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+6018,2011,Summer,Departures,Laurentiu Dinita,https://www.transfermarkt.com/laurentiu-dinita/profil/spieler/26493,Concordia Chiajna,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+6058,2011,Winter,Departures,Petre Marin,https://www.transfermarkt.com/petre-marin/profil/spieler/26498,Concordia Chiajna,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+6060,2011,Winter,Departures,Eugen Trică,https://www.transfermarkt.com/eugen-trica/profil/spieler/26299,Concordia Chiajna,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+6155,2011,Summer,Departures,Romeo Stancu,https://www.transfermarkt.com/romeo-stancu/profil/spieler/35442,CS Mioveni,,,,,,,False,-,club_2 is empty/null
+6167,2011,Winter,Departures,Iulian Mihai Ilie,https://www.transfermarkt.com/iulian-mihai-ilie/profil/spieler/56157,CS Mioveni,,,,,,0.0,False,,club_2 is empty/null
+6322,2012,Summer,Departures,Pompiliu Stoica,https://www.transfermarkt.com/pompiliu-stoica/profil/spieler/25660,Petrolul Ploiesti,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6325,2012,Summer,Departures,Florentin Dumitru,https://www.transfermarkt.com/florentin-dumitru/profil/spieler/26495,Petrolul Ploiesti,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6429,2012,Summer,Departures,Radek Oprsal,https://www.transfermarkt.com/radek-oprsal/profil/spieler/48680,Astra Giurgiu (- 2024),,,,,,,False,-,club_2 is empty/null
+6430,2012,Summer,Departures,Ben Teekloh,https://www.transfermarkt.com/ben-teekloh/profil/spieler/48197,Astra Giurgiu (- 2024),,,,,,,False,-,club_2 is empty/null
+6590,2012,Winter,Departures,Marius Bilașco,https://www.transfermarkt.com/marius-bilasco/profil/spieler/46505,FC Rapid 1923,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6593,2012,Winter,Departures,Ovidiu Burcă,https://www.transfermarkt.com/ovidiu-burca/profil/spieler/26028,FC Rapid 1923,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6647,2012,Winter,Departures,Gabriel Viglianti,https://www.transfermarkt.com/gabriel-viglianti/profil/spieler/69455,SC Otelul Galati,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6703,2012,Summer,Arrivals,Gabriel Boștină,https://www.transfermarkt.com/gabriel-bostina/profil/spieler/26489,CS Turnu-Severin (- 2013),,,,,,,False,-,club_2 is empty/null
+6813,2012,Summer,Departures,Nicola Ascoli,https://www.transfermarkt.com/nicola-ascoli/profil/spieler/24290,FC Universitatea Cluj,,,,Romania,SuperLiga,0.0,False,,club_2 is empty/null
+6834,2012,Summer,Departures,Gabriel Boștină,https://www.transfermarkt.com/gabriel-bostina/profil/spieler/26489,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6836,2012,Summer,Departures,Claudiu Niculescu,https://www.transfermarkt.com/claudiu-niculescu/profil/spieler/26049,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6868,2012,Winter,Departures,Roberto Iancu,https://www.transfermarkt.com/roberto-iancu/profil/spieler/25934,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6869,2012,Winter,Departures,Alex Bráz,https://www.transfermarkt.com/alex-braz/profil/spieler/76066,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6913,2012,Summer,Departures,Liviu Ștefan,https://www.transfermarkt.com/liviu-stefan/profil/spieler/213721,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6914,2012,Summer,Departures,Catalin Popa,https://www.transfermarkt.com/catalin-popa/profil/spieler/208817,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6915,2012,Summer,Departures,Nicolae Hertu,https://www.transfermarkt.com/nicolae-hertu/profil/spieler/164250,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6916,2012,Summer,Departures,Robert Lupu,https://www.transfermarkt.com/robert-lupu/profil/spieler/164270,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+6936,2012,Winter,Departures,Vasile Păcuraru,https://www.transfermarkt.com/vasile-pacuraru/profil/spieler/46614,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+7067,2012,Winter,Departures,Valentin Simion,https://www.transfermarkt.com/valentin-simion/profil/spieler/34760,Concordia Chiajna,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+7166,2012,Winter,Departures,Florin Bratu,https://www.transfermarkt.com/florin-bratu/profil/spieler/9710,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+7168,2012,Winter,Departures,Valentin Năstase,https://www.transfermarkt.com/valentin-nastase/profil/spieler/28024,CF Gloria Bistrita (- 2015),,,,,,,False,-,club_2 is empty/null
+7183,2012,Summer,Departures,Yamoudou Camara,https://www.transfermarkt.com/yamoudou-camara/profil/spieler/56776,ACSM Politehnica Iasi,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+7349,2013,Winter,Departures,Ionel Dănciulescu,https://www.transfermarkt.com/ionel-danciulescu/profil/spieler/19405,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+7396,2013,Summer,Departures,Cristian Panin,https://www.transfermarkt.com/cristian-panin/profil/spieler/43350,CFR Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+7515,2013,Summer,Departures,Denis Zmeu,https://www.transfermarkt.com/denis-zmeu/profil/spieler/48799,FC Vaslui (- 2014),,,,,,,False,-,club_2 is empty/null
+7516,2013,Summer,Departures,Bamba Drissa,https://www.transfermarkt.com/bamba-drissa/profil/spieler/127345,FC Vaslui (- 2014),,,,,,,False,-,club_2 is empty/null
+7641,2013,Winter,Departures,Sorin Ghionea,https://www.transfermarkt.com/sorin-ghionea/profil/spieler/26496,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+7718,2013,Winter,Departures,Nicolae Mitea,https://www.transfermarkt.com/nicolae-mitea/profil/spieler/7433,Concordia Chiajna,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+7755,2013,Summer,Departures,Roy Odiaka,https://www.transfermarkt.com/roy-odiaka/profil/spieler/244983,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+7775,2013,Winter,Departures,Habib Baldé,https://www.transfermarkt.com/habib-balde/profil/spieler/57351,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+7887,2013,Summer,Departures,Mihai Stere,https://www.transfermarkt.com/mihai-stere/profil/spieler/123738,ACS FC Brasov Steagu Renaste (- 2024),,,,,,,False,-,club_2 is empty/null
+7986,2013,Summer,Departures,Theo Samata,https://www.transfermarkt.com/theo-samata/profil/spieler/208820,Sageata Navodari (- 2015),,,,,,,False,-,club_2 is empty/null
+8105,2014,Summer,Departures,Dănuț Coman,https://www.transfermarkt.com/danut-coman/profil/spieler/34501,Astra Giurgiu (- 2024),,,,,,,False,-,club_2 is empty/null
+8311,2016,Summer,Departures,Houssine Kharja,https://www.transfermarkt.com/houssine-kharja/profil/spieler/21822,FCSB,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+8335,2014,Summer,Departures,Paraskevas Christou,https://www.transfermarkt.com/paraskevas-christou/profil/spieler/48933,Pandurii Targu Jiu (- 2022),,,,,,,False,-,club_2 is empty/null
+8391,2014,Summer,Departures,Nicolae Dică,https://www.transfermarkt.com/nicolae-dica/profil/spieler/15004,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+8451,2014,Winter,Departures,Mihăiță Pleșan,https://www.transfermarkt.com/mihaita-plesan/profil/spieler/26683,CS Universitatea Craiova,,,,Romania,SuperLiga,0.0,False,,club_2 is empty/null
+8514,2014,Winter,Departures,Valentin Negru,https://www.transfermarkt.com/valentin-negru/profil/spieler/35439,FC Rapid 1923,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+8544,2014,Summer,Departures,Didi,https://www.transfermarkt.com/didi/profil/spieler/24733,AS Ardealul Tg. Mures (- 2018),,,,,,,False,-,club_2 is empty/null
+8602,2014,Summer,Departures,Aurimas Vertelis,https://www.transfermarkt.com/aurimas-vertelis/profil/spieler/120048,FC Botosani,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+8605,2014,Summer,Departures,Valeriu Bordeanu,https://www.transfermarkt.com/valeriu-bordeanu/profil/spieler/25848,FC Botosani,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+8654,2014,Summer,Departures,Zsolt Szilagyi,https://www.transfermarkt.com/zsolt-szilagyi/profil/spieler/156900,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+8658,2014,Summer,Departures,Alin Ratiu,https://www.transfermarkt.com/alin-ratiu/profil/spieler/56041,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+8681,2014,Winter,Departures,Vladimir Niculescu,https://www.transfermarkt.com/vladimir-niculescu/profil/spieler/64207,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+8825,2014,Winter,Departures,Olberdam,https://www.transfermarkt.com/olberdam/profil/spieler/33537,Concordia Chiajna,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+8898,2014,Summer,Departures,Raul Gaspar,https://www.transfermarkt.com/raul-gaspar/profil/spieler/281049,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+9103,2015,Winter,Departures,Sergiu Ungurean,https://www.transfermarkt.com/sergiu-ungurean/profil/spieler/278951,Astra Giurgiu (- 2024),,,,,,,False,-,club_2 is empty/null
+9171,2015,Winter,Departures,Gabriel Abraham,https://www.transfermarkt.com/gabriel-abraham/profil/spieler/81467,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+9172,2015,Winter,Departures,Antonio Ghomsi,https://www.transfermarkt.com/antonio-ghomsi/profil/spieler/21924,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+9213,2015,Summer,Departures,Henrique,https://www.transfermarkt.com/henrique/profil/spieler/101197,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+9214,2015,Summer,Departures,George Șerban,https://www.transfermarkt.com/george-serban/profil/spieler/186549,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+9215,2015,Summer,Departures,Cătălin Munteanu,https://www.transfermarkt.com/catalin-munteanu/profil/spieler/16615,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+9542,2015,Winter,Departures,Dinu Todoran,https://www.transfermarkt.com/dinu-todoran/profil/spieler/46666,FC Voluntari,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+9543,2015,Winter,Departures,Florin Maxim,https://www.transfermarkt.com/florin-maxim/profil/spieler/48768,FC Voluntari,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+9656,2015,Summer,Departures,Marian Petre,https://www.transfermarkt.com/marian-petre/profil/spieler/309002,Petrolul Ploiesti,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+9721,2015,Summer,Departures,Silviu Balace,https://www.transfermarkt.com/silviu-balace/profil/spieler/47867,ACS Poli Timisoara (2012 - 2021),,,,,,,False,-,club_2 is empty/null
+9722,2015,Summer,Departures,Ovidiu Petre,https://www.transfermarkt.com/ovidiu-petre/profil/spieler/9762,ACS Poli Timisoara (2012 - 2021),,,,,,,False,-,club_2 is empty/null
+9767,2015,Summer,Departures,Adrian Olah,https://www.transfermarkt.com/adrian-olah/profil/spieler/25938,ACSM Politehnica Iasi,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+9885,2016,Summer,Departures,Denis Lemac,https://www.transfermarkt.com/denis-lemac/profil/spieler/220921,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+10036,2016,Summer,Departures,Valentin Iliev,https://www.transfermarkt.com/valentin-iliev/profil/spieler/35259,CS Universitatea Craiova,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+10139,2016,Winter,Departures,Claudiu Voiculet,https://www.transfermarkt.com/claudiu-voiculet/profil/spieler/46679,Pandurii Targu Jiu (- 2022),,,,,,,False,-,club_2 is empty/null
+10168,2016,Summer,Departures,Sergiu Muth,https://www.transfermarkt.com/sergiu-muth/profil/spieler/96848,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+10282,2016,Winter,Departures,Adrian Cristea,https://www.transfermarkt.com/adrian-cristea/profil/spieler/33440,Concordia Chiajna,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+10283,2016,Winter,Departures,Iulian Mamele,https://www.transfermarkt.com/iulian-mamele/profil/spieler/200472,Concordia Chiajna,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+10330,2016,Summer,Departures,Adrian Mutu,https://www.transfermarkt.com/adrian-mutu/profil/spieler/5879,AS Ardealul Tg. Mures (- 2018),,,,,,,False,-,club_2 is empty/null
+10331,2016,Summer,Departures,Bruno Martins,https://www.transfermarkt.com/bruno-martins/profil/spieler/329763,AS Ardealul Tg. Mures (- 2018),,,,,,,False,-,club_2 is empty/null
+10369,2016,Winter,Departures,Ianis Zicu,https://www.transfermarkt.com/ianis-zicu/profil/spieler/16909,AS Ardealul Tg. Mures (- 2018),,,,,,,False,-,club_2 is empty/null
+10405,2016,Winter,Departures,Dumitru Hotoboc,https://www.transfermarkt.com/dumitru-hotoboc/profil/spieler/46563,ACSM Politehnica Iasi,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+10432,2016,Summer,Departures,Daniel Pancu,https://www.transfermarkt.com/daniel-pancu/profil/spieler/6888,FC Voluntari,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+10680,2017,Summer,Departures,Traian Marc,https://www.transfermarkt.com/traian-marc/profil/spieler/47490,CFR Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+10836,2017,Summer,Departures,Geraldo,https://www.transfermarkt.com/geraldo/profil/spieler/14300,Astra Giurgiu (- 2024),,,,,,,False,-,club_2 is empty/null
+10837,2017,Summer,Departures,Florin Lovin,https://www.transfermarkt.com/florin-lovin/profil/spieler/26497,Astra Giurgiu (- 2024),,,,,,,False,-,club_2 is empty/null
+11043,2017,Summer,Departures,Armando Mihai,https://www.transfermarkt.com/armando-mihai/profil/spieler/48769,Sepsi OSK Sf. Gheorghe,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+11045,2017,Summer,Departures,Valentin Suciu,https://www.transfermarkt.com/valentin-suciu/profil/spieler/244685,Sepsi OSK Sf. Gheorghe,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+11149,2017,Summer,Departures,Mircea Bornescu,https://www.transfermarkt.com/mircea-bornescu/profil/spieler/47569,FC Voluntari,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+11150,2017,Summer,Departures,Nicolae Grigore,https://www.transfermarkt.com/nicolae-grigore/profil/spieler/35437,FC Voluntari,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+11208,2017,Summer,Departures,Marius Croitoru,https://www.transfermarkt.com/marius-croitoru/profil/spieler/46526,ACS Poli Timisoara (2012 - 2021),,,,,,,False,-,club_2 is empty/null
+11254,2017,Summer,Departures,Pedro Mingote,https://www.transfermarkt.com/pedro-mingote/profil/spieler/24873,ASC Daco-Getica Bukarest,,,,,,,False,-,club_2 is empty/null
+11377,2018,Summer,Departures,Sorin Rădoi,https://www.transfermarkt.com/sorin-radoi/profil/spieler/47180,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+11598,2018,Winter,Departures,Jaime Penedo,https://www.transfermarkt.com/jaime-penedo/profil/spieler/43851,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+11601,2018,Winter,Departures,Grégory Tadé,https://www.transfermarkt.com/gregory-tade/profil/spieler/45931,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+11628,2018,Summer,Departures,Ionuț Boșneag,https://www.transfermarkt.com/ionut-bosneag/profil/spieler/46509,Astra Giurgiu (- 2024),,,,,,,False,-,club_2 is empty/null
+11703,2018,Winter,Departures,Cédric Mongongu,https://www.transfermarkt.com/cedric-mongongu/profil/spieler/44417,ACSM Politehnica Iasi,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+11818,2018,Summer,Departures,Filipe Oliveira,https://www.transfermarkt.com/filipe-oliveira/profil/spieler/3178,Sepsi OSK Sf. Gheorghe,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+11888,2018,Summer,Departures,Florin Cernat,https://www.transfermarkt.com/florin-cernat/profil/spieler/3132,FC Voluntari,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+11889,2018,Summer,Departures,Lucian Sânmărtean,https://www.transfermarkt.com/lucian-sanmartean/profil/spieler/9733,FC Voluntari,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+11995,2018,Winter,Departures,Pelé,https://www.transfermarkt.com/pele/profil/spieler/48930,Dunarea Calarasi,,,,,,,False,-,club_2 is empty/null
+12028,2018,Summer,Departures,Iulian Popa,https://www.transfermarkt.com/iulian-popa/profil/spieler/168281,FC Hermannstadt,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+12089,2018,Summer,Departures,Marius Pena,https://www.transfermarkt.com/marius-pena/profil/spieler/81495,Concordia Chiajna,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+12151,2019,Summer,Departures,Filipe Teixeira,https://www.transfermarkt.com/filipe-teixeira/profil/spieler/5568,FCSB,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+12170,2019,Winter,Departures,Mihai Pintilii,https://www.transfermarkt.com/mihai-pintilii/profil/spieler/48890,FCSB,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+12202,2019,Summer,Departures,George Țucudean,https://www.transfermarkt.com/george-tucudean/profil/spieler/130345,CFR Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+12225,2019,Winter,Departures,Adrian Rus,https://www.transfermarkt.com/adrian-rus/profil/spieler/594827,CFR Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+12267,2019,Summer,Departures,Eduard Stăncioiu,https://www.transfermarkt.com/eduard-stancioiu/profil/spieler/48659,CS Universitatea Craiova,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+12339,2019,Summer,Departures,Dani López,https://www.transfermarkt.com/dani-lopez/profil/spieler/247363,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+12591,2019,Summer,Departures,Adriano Russo,https://www.transfermarkt.com/adriano-russo/profil/spieler/44281,FC Voluntari,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+12595,2019,Summer,Departures,Razvan Petrariu,https://www.transfermarkt.com/razvan-petrariu/profil/spieler/287440,FC Voluntari,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+12661,2019,Summer,Departures,Ștefan Popescu,https://www.transfermarkt.com/stefan-popescu/profil/spieler/129248,ACSM Politehnica Iasi,,,,Romania,Liga 2,0.0,False,,club_2 is empty/null
+12671,2019,Summer,Departures,Habib Habibou,https://www.transfermarkt.com/habib-habibou/profil/spieler/41261,ACSM Politehnica Iasi,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+12777,2019,Summer,Departures,Attila Hadnagy,https://www.transfermarkt.com/attila-hadnagy/profil/spieler/64171,Sepsi OSK Sf. Gheorghe,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+12841,2019,Summer,Departures,Florin Acsinte,https://www.transfermarkt.com/florin-acsinte/profil/spieler/64090,FC Hermannstadt,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+12843,2019,Summer,Departures,Alexandru Tarnovan,https://www.transfermarkt.com/alexandru-tarnovan/profil/spieler/262028,FC Hermannstadt,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+12883,2019,Summer,Departures,Marian Vătavu,https://www.transfermarkt.com/marian-vatavu/profil/spieler/47896,AFC Chindia Targoviste,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+13151,2020,Winter,Departures,Doru Dumitrescu,https://www.transfermarkt.com/doru-dumitrescu/profil/spieler/415890,FCV Farul Constanta,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+13246,2020,Summer,Departures,Slavko Perovic,https://www.transfermarkt.com/slavko-perovic/profil/spieler/51153,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+13284,2020,Summer,Departures,Alessio Carlone,https://www.transfermarkt.com/alessio-carlone/profil/spieler/258816,FC Botosani,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+13414,2020,Summer,Departures,Sofiane Moussa,https://www.transfermarkt.com/sofiane-moussa/profil/spieler/159553,Academica Clinceni (2005 - 2022),,,,,,,False,-,club_2 is empty/null
+13657,2020,Winter,Departures,Andrei Prepeliță,https://www.transfermarkt.com/andrei-prepelita/profil/spieler/37933,ACSC FC Arges,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+13687,2020,Summer,Departures,Alessandro Caparco,https://www.transfermarkt.com/alessandro-caparco/profil/spieler/85260,ACSM Politehnica Iasi,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+13748,2021,Summer,Departures,Aristidis Soiledis,https://www.transfermarkt.com/aristidis-soiledis/profil/spieler/63490,FCSB,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+13829,2021,Winter,Departures,Emmanuel Culio,https://www.transfermarkt.com/emmanuel-culio/profil/spieler/30846,CFR Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+13839,2021,Summer,Arrivals,Antoine Conte,https://www.transfermarkt.com/antoine-conte/profil/spieler/181373,CS Universitatea Craiova,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+13863,2021,Summer,Departures,Andrei Marinescu,https://www.transfermarkt.com/andrei-marinescu/profil/spieler/45052,CS Universitatea Craiova,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+14069,2021,Summer,Departures,Ionuț Voicu,https://www.transfermarkt.com/ionut-voicu/profil/spieler/46677,FC Rapid 1923,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+14168,2021,Summer,Departures,Joseph Akpala,https://www.transfermarkt.com/joseph-akpala/profil/spieler/38000,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+14201,2021,Winter,Departures,André Pinto,https://www.transfermarkt.com/andre-pinto/profil/spieler/58923,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+14204,2021,Winter,Departures,Răzvan Popa,https://www.transfermarkt.com/razvan-popa/profil/spieler/220851,FC Dinamo 1948,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+14379,2021,Summer,Departures,Răzvan Pleșca,https://www.transfermarkt.com/razvan-plesca/profil/spieler/25940,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+14380,2021,Summer,Departures,Eric,https://www.transfermarkt.com/eric/profil/spieler/81509,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+14383,2021,Summer,Departures,Andrei Cristea,https://www.transfermarkt.com/andrei-cristea/profil/spieler/464239,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+14415,2021,Winter,Departures,Tomas Smola,https://www.transfermarkt.com/tomas-smola/profil/spieler/255413,Gaz Metan Medias (- 2022),,,,,,,False,-,club_2 is empty/null
+14496,2021,Summer,Departures,Florin Gardoș,https://www.transfermarkt.com/florin-gardos/profil/spieler/57423,Academica Clinceni (2005 - 2022),,,,,,,False,-,club_2 is empty/null
+14544,2021,Winter,Departures,Lucian Filip,https://www.transfermarkt.com/lucian-filip/profil/spieler/60880,Academica Clinceni (2005 - 2022),,,,,,,False,-,club_2 is empty/null
+14590,2021,Winter,Departures,Andrei Cristea,https://www.transfermarkt.com/andrei-cristea/profil/spieler/26491,CS Mioveni,,,,,,,False,-,club_2 is empty/null
+14630,2022,Summer,Departures,Paulo Vinícius,https://www.transfermarkt.com/paulo-vinicius/profil/spieler/45025,FCSB,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+14693,2022,Summer,Departures,Ovidiu Hoban,https://www.transfermarkt.com/ovidiu-hoban/profil/spieler/81484,CFR Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+14818,2022,Winter,Departures,Giedrius Arlauskis,https://www.transfermarkt.com/giedrius-arlauskis/profil/spieler/69001,CS Universitatea Craiova,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+14916,2022,Summer,Departures,Alberto Cobrea,https://www.transfermarkt.com/alberto-cobrea/profil/spieler/96841,FC U Craiova 1948,,,,,,,False,-,club_2 is empty/null
+14973,2022,Summer,Departures,Laurențiu Rus,https://www.transfermarkt.com/laurentiu-rus/profil/spieler/123289,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+15205,2022,Summer,Departures,Cristian Tănase,https://www.transfermarkt.com/cristian-tanase/profil/spieler/46662,ACSC FC Arges,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+15206,2022,Summer,Departures,Nicolae Musat,https://www.transfermarkt.com/nicolae-musat/profil/spieler/53196,ACSC FC Arges,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+15305,2022,Winter,Departures,Eugeniu Cebotaru,https://www.transfermarkt.com/eugeniu-cebotaru/profil/spieler/48820,Petrolul Ploiesti,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+15328,2022,Summer,Departures,Stanley Elbers,https://www.transfermarkt.com/stanley-elbers/profil/spieler/188905,FC Hermannstadt,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+15846,2023,Summer,Departures,Ely Fernandes,https://www.transfermarkt.com/ely-fernandes/profil/spieler/292488,FC Universitatea Cluj,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+15947,2023,Summer,Departures,Claudiu Keșerü,https://www.transfermarkt.com/claudiu-keseru/profil/spieler/25115,UTA Arad,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+16091,2023,Summer,Departures,Iasmin Latovlevici,https://www.transfermarkt.com/iasmin-latovlevici/profil/spieler/47172,Petrolul Ploiesti,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+16155,2023,Summer,Departures,Mihai Roman,https://www.transfermarkt.com/mihai-roman/profil/spieler/64229,FC Botosani,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+16156,2023,Summer,Departures,Andrei Patache,https://www.transfermarkt.com/andrei-patache/profil/spieler/64216,FC Botosani,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+16254,2023,Summer,Departures,Cristian Sîrghi,https://www.transfermarkt.com/cristian-sirghi/profil/spieler/48687,SC Otelul Galati,,,,Romania,SuperLiga,,False,-,club_2 is empty/null
+16296,2023,Summer,Departures,Gabriel Enache,https://www.transfermarkt.com/gabriel-enache/profil/spieler/197652,FC U Craiova 1948,,,,,,,False,-,club_2 is empty/null
+16411,2023,Winter,Departures,Gabriel Vașvari,https://www.transfermarkt.com/gabriel-vasvari/profil/spieler/177660,ACSM Politehnica Iasi,,,,Romania,Liga 2,,False,-,club_2 is empty/null
+16946,2024,Summer,Departures,George Cîrjan,https://www.transfermarkt.com/george-cirjan/profil/spieler/213640,SC Otelul Galati,,,,Romania,SuperLiga,,False,-,club_2 is empty/null

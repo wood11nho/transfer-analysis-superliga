@@ -1,0 +1,13 @@
+# Core App Framework
+streamlit
+
+# Data Manipulation & Visualization
+pandas>=2.0.0
+plotly>=5.24.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+numpy>=1.21.0
+
+# Database Connectivity (PostgreSQL)
+sqlalchemy
+psycopg2-binary
