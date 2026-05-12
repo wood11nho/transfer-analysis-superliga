@@ -2,7 +2,6 @@ import streamlit as st
 from sqlalchemy.exc import OperationalError
 
 from db import get_engine
-from queries import load_competition_base_df
 from ui import render_page_chrome
 
 
@@ -21,27 +20,31 @@ def show_home():
     st.title("🏆 Superliga Transfer Analytics")
     st.write(
         """
-        This application explores Romanian Superliga transfers using the
-        cleaned warehouse schema you built (`dim_players`, `dim_clubs`,
-        `fact_transfers`).
+        Explore two decades of Romanian Superliga transfers — fees, free
+        agents, age and position trends, nationality flows, and how
+        Romanian clubs trade against the rest of European football.
         """
     )
 
     st.markdown(
         """
-        ### Navigation
+        ### Where to start
 
-        Use the **Pages** menu (on the left) to access:
+        Open a page from the **menu on the left**:
 
-        - **Competition** — league/season level analysis with financials,
-          age, nationality, origin, positions, and more.
-        - Additional pages (Players, Clubs, etc.) can be added later.
+        - **Competition** — season-by-season analysis with financials,
+          age profile, origin & nationality, positions, deal structure,
+          European impact, and a searchable register of every transfer.
+        - **General Insights** — high-level visual stories: spending by
+          position, free vs. paid market, scouting corridors, and more.
         """
     )
 
-    with st.expander("Quick sanity check (sample data)"):
-        df = load_competition_base_df(seasons=None)
-        st.write(df.head())
+    st.info(
+        "Tip: use the **Filters** in the sidebar of each page to narrow the "
+        "view by season, club, position, nationality, age, or deal type.",
+        icon="💡",
+    )
 
 
 def main():
@@ -54,26 +57,21 @@ def main():
     try:
         init_app()
     except OperationalError as exc:
-        st.error("Database connection failed.")
+        st.error("The analytics database is currently unreachable.")
         st.markdown(
-            """
-            ### How to fix this on Streamlit Cloud
-
-            1. Add one of these keys in app **Settings -> Secrets**:
-               `TRANSFER_DB_URL` or `DATABASE_URL`.
-            2. Use a remote Postgres URL (not localhost).
-            3. Ensure your database allows external connections.
-
-            Example:
-
-            `DATABASE_URL = "postgresql://user:password@host:5432/dbname?sslmode=require"`
-            """
+            "Please try refreshing in a few moments. If the issue persists, "
+            "you can let the team know through the **Feedback** form in the sidebar."
         )
-        st.info(
-            "If no secret/env DB URL is found, the app intentionally falls back "
-            "to localhost for local development only."
-        )
-        st.caption(f"SQLAlchemy error: {exc}")
+        with st.expander("Technical details (for administrators)"):
+            st.markdown(
+                "Configure the database connection by setting `DATABASE_URL` "
+                "(or `TRANSFER_DB_URL`) in the deployment's environment or "
+                "Streamlit secrets, for example:\n\n"
+                "```\n"
+                "DATABASE_URL = \"postgresql://user:password@host:5432/dbname?sslmode=require\"\n"
+                "```"
+            )
+            st.caption(f"Driver error: {exc}")
         st.stop()
 
     show_home()

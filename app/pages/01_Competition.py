@@ -46,7 +46,12 @@ def build_filters(df: pd.DataFrame):
     age_min = int(df["player_age"].min()) if df["player_age"].notna().any() else 15
     age_max = int(df["player_age"].max()) if df["player_age"].notna().any() else 40
 
-    selected_clubs = st.sidebar.multiselect("Team 1 (Perspective Team)", clubs)
+    selected_clubs = st.sidebar.multiselect(
+        "Romanian club",
+        clubs,
+        help="Limit the view to one or more Romanian clubs. "
+        "All arrivals/departures and financials are reported from this club's perspective.",
+    )
     selected_positions = st.sidebar.multiselect("Position(s)", positions)
     selected_nationalities = st.sidebar.multiselect("Nationality(ies)", nationalities)
     age_range = st.sidebar.slider(
@@ -60,7 +65,9 @@ def build_filters(df: pd.DataFrame):
         "Deal type",
         options=["Paid", "Loan", "Free"],
         default=["Paid", "Loan", "Free"],
-        help="Paid: fee > 0, Loan: is_loan = True, Free: fee = 0 and not loan",
+        help="Paid: a transfer fee was reported. "
+        "Loan: temporary move. "
+        "Free: no fee and not a loan.",
     )
 
     return {
@@ -1604,7 +1611,8 @@ def european_impact_section(df: pd.DataFrame):
     uefa = load_uefa_long()
     if uefa.empty:
         st.error(
-            f"UEFA coefficient file not found or empty. Expected: `{UEFA_CSV_PATH}`."
+            "UEFA country coefficient data is currently unavailable, so this "
+            "view cannot be rendered. Please try again later."
         )
         return
 
@@ -1620,7 +1628,10 @@ def european_impact_section(df: pd.DataFrame):
         return
 
     if "team2_country" not in work.columns:
-        st.warning("No `team2_country` column — cannot map to UEFA countries.")
+        st.warning(
+            "Counterparty country information is unavailable for this view, "
+            "so UEFA league strength cannot be mapped."
+        )
         return
 
     pairs = (
@@ -2197,14 +2208,15 @@ def table_section(df: pd.DataFrame):
 def main():
     st.title("Competition Overview")
     st.caption(
-        "Analyze transfers at competition level: financials, age, nationality, "
-        "positions, and more. Data is sourced from the Postgres warehouse."
+        "Analyze Romanian Superliga transfers at competition level — "
+        "financials, age, nationality, positions, deal structure and more. "
+        "Data sourced from Transfermarkt."
     )
 
     # Load full dataset first to populate filter options
     base_df = load_data(selected_seasons=None)
     if base_df.empty:
-        st.error("No transfer data found in the database.")
+        st.error("No transfer data is available right now. Please try again later.")
         return
 
     filters = build_filters(base_df)

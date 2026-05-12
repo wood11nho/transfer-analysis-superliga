@@ -30,20 +30,22 @@ def main():
     st.title("📊 General Insights")
     bundle = load_bundle()
     if bundle["df"].empty:
-        st.error("No data found. Ensure a combined file like `data/romania_transfers_combined_*.csv` exists.")
+        st.error("No transfer data is available right now. Please try again later.")
         return
 
     season_min = bundle.get("season_min")
     season_max = bundle.get("season_max")
     if season_min is not None and season_max is not None:
         st.caption(
-            "Same analyses and charts as in the exploratory notebook (data_analysis.ipynb). "
-            f"Data: Romanian League transfers {season_min}-{season_max} from Transfermarkt."
+            f"Big-picture views across {season_min}–{season_max}: spending by "
+            "position, the free-agent market, scouting corridors, and more. "
+            "Data sourced from Transfermarkt."
         )
     else:
         st.caption(
-            "Same analyses and charts as in the exploratory notebook (data_analysis.ipynb). "
-            "Data: Romanian League transfers from Transfermarkt."
+            "Big-picture views of the Romanian transfer market: spending by "
+            "position, the free-agent market, scouting corridors, and more. "
+            "Data sourced from Transfermarkt."
         )
 
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
