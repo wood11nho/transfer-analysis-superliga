@@ -3,6 +3,7 @@ from sqlalchemy.exc import OperationalError
 
 from db import get_engine
 from queries import load_competition_base_df
+from ui import render_page_chrome
 
 
 def init_app():
@@ -76,6 +77,7 @@ def main():
         st.stop()
 
     show_home()
+    render_page_chrome(page_title="Home")
 
 
 if __name__ == "__main__":

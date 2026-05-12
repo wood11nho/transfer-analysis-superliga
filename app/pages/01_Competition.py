@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 import numpy as np
 
 from queries import load_competition_base_df
+from ui import render_page_chrome
 from uefa_coefficients import (
     UEFA_CSV_PATH,
     attach_counterparty_ranks,
@@ -2242,6 +2243,8 @@ def main():
         european_impact_section(enriched_df)
     with tab_table:
         table_section(enriched_df)
+
+    render_page_chrome(page_title="Competition")
 
 
 if __name__ == "__main__":

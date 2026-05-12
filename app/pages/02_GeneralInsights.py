@@ -16,6 +16,7 @@ from notebook_viz import (
     viz5_age_paid_vs_free,
     viz6_transfer_corridors,
 )
+from ui import render_page_chrome
 
 
 @st.cache_data(show_spinner="Loading notebook data…")
@@ -92,6 +93,8 @@ def main():
         fig = viz6_transfer_corridors(bundle)
         st.pyplot(fig, use_container_width=True)
         plt.close(fig)
+
+    render_page_chrome(page_title="General Insights")
 
 
 if __name__ == "__main__":

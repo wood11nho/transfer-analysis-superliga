@@ -12,3 +12,6 @@ statsmodels>=0.14.0
 # Database Connectivity (PostgreSQL)
 sqlalchemy
 psycopg2-binary
+
+# HTTP (used by the feedback widget to relay messages via FormSubmit.co)
+requests>=2.31.0
