@@ -625,6 +625,11 @@ def origin_nationality_section(df: pd.DataFrame):
         value=True,
         help="Many moves involve Romanian clubs on both sides; hiding Romania highlights foreign league links.",
     )
+    exclude_unknown_country = st.checkbox(
+        "Hide **(Unknown)** in “other club country” ranking charts",
+        value=True,
+        help="(Unknown) means the other club’s country is missing in the source/club table for that transfer.",
+    )
 
     arrivals = work[work["transfer_side"] == "Arrivals"]
     departures = work[work["transfer_side"] == "Departures"]
@@ -637,13 +642,20 @@ def origin_nationality_section(df: pd.DataFrame):
         vc.columns = ["nationality", "count"]
         return vc.head(15)
 
-    def country_frame(side_df: pd.DataFrame, exclude_ro: bool) -> pd.DataFrame:
+    def country_frame(side_df: pd.DataFrame, exclude_ro: bool, exclude_unknown: bool) -> pd.DataFrame:
         d = side_df.copy()
         if exclude_ro:
             d = d[d["other_club_country"] != "Romania"]
+        if exclude_unknown:
+            d = d[d["other_club_country"] != "(Unknown)"]
         vc = d["other_club_country"].value_counts().reset_index()
         vc.columns = ["country", "count"]
         return vc.head(15)
+
+    def unknown_country_share(side_df: pd.DataFrame) -> float:
+        if side_df.empty:
+            return float("nan")
+        return (side_df["other_club_country"] == "(Unknown)").mean() * 100
 
     # --- Snapshot KPIs ---
     def romanian_share(side_df: pd.DataFrame) -> float:
@@ -689,10 +701,14 @@ def origin_nationality_section(df: pd.DataFrame):
         "**Arrivals:** country of the **selling** side’s club (the player’s previous club). "
         "**Departures:** country of the **buying** side’s club (where the player goes next)."
     )
+    unk_a = unknown_country_share(arrivals)
+    unk_d = unknown_country_share(departures)
+    if not (np.isnan(unk_a) and np.isnan(unk_d)):
+        st.caption(f"Missing other-club country: Arrivals {unk_a:.1f}% · Departures {unk_d:.1f}%")
     r3, r4 = st.columns(2)
     with r3:
         st.markdown("**Arrivals** — countries linked to incoming players")
-        fc_a = country_frame(arrivals, exclude_ro_country)
+        fc_a = country_frame(arrivals, exclude_ro_country, exclude_unknown_country)
         fig_ca = _ranked_bar_h(fc_a, "country", "count", "Top countries — other club (arrivals)", "#1f77b4")
         if fig_ca:
             st.plotly_chart(fig_ca, use_container_width=True)
@@ -700,7 +716,7 @@ def origin_nationality_section(df: pd.DataFrame):
             st.info("No country data for arrivals with current options.")
     with r4:
         st.markdown("**Departures** — countries linked to outgoing players")
-        fc_d = country_frame(departures, exclude_ro_country)
+        fc_d = country_frame(departures, exclude_ro_country, exclude_unknown_country)
         fig_cd = _ranked_bar_h(fc_d, "country", "count", "Top countries — other club (departures)", "#ef553b")
         if fig_cd:
             st.plotly_chart(fig_cd, use_container_width=True)

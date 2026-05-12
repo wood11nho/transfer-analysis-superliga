@@ -1,10 +1,11 @@
 """
 Global configuration for the Superliga Transfer Analytics app.
 
-In a production setup you would typically read the database URL and
-other secrets from environment variables or a secrets manager.
-For now we centralize the Postgres connection string here so that
-all modules use a single source of truth.
+Database URL resolution order:
+1. Environment variable ``TRANSFER_DB_URL`` (local dev, Docker, CI).
+2. Streamlit secrets ``TRANSFER_DB_URL`` (Streamlit Community Cloud reads the
+   dashboard “Secrets” TOML into ``st.secrets``, not into ``os.environ``).
+3. Local default Postgres URL for the ETL pipeline on your machine only.
 """
 
 import os
@@ -13,16 +14,20 @@ import os
 def get_db_url() -> str:
     """
     Returns the database URL for the analytics app.
-
-    Priority:
-    1. ENV VAR: TRANSFER_DB_URL
-    2. Fallback: local Postgres instance used elsewhere in the project
     """
 
     env_url = os.getenv("TRANSFER_DB_URL")
     if env_url:
-        return env_url
+        return env_url.strip()
 
-    # Fallback to the same database used by the ETL pipeline
+    try:
+        import streamlit as st
+
+        if hasattr(st, "secrets") and "TRANSFER_DB_URL" in st.secrets:
+            return str(st.secrets["TRANSFER_DB_URL"]).strip()
+    except Exception:
+        pass
+
+    # Same database as local ETL; not available on Streamlit Cloud — set secrets / env above.
     return "postgresql://postgres:password@localhost:5432/romanian_football"
 

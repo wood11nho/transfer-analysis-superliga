@@ -1,4 +1,5 @@
 import streamlit as st
+from sqlalchemy.exc import OperationalError
 
 from db import get_engine
 from queries import load_competition_base_df
@@ -49,7 +50,26 @@ def main():
         page_icon="🏆",
     )
 
-    init_app()
+    try:
+        init_app()
+    except OperationalError as exc:
+        st.error("Database connection failed.")
+        st.markdown(
+            """
+            ### How to fix this on Streamlit Cloud
+
+            1. Add `TRANSFER_DB_URL` in your app **Settings -> Secrets**.
+            2. Use a remote Postgres URL (not localhost).
+            3. Ensure your database allows external connections.
+
+            Example:
+
+            `TRANSFER_DB_URL = "postgresql://user:password@host:5432/dbname?sslmode=require"`
+            """
+        )
+        st.caption(f"SQLAlchemy error: {exc}")
+        st.stop()
+
     show_home()
 
 
