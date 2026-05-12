@@ -14,6 +14,39 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
+def _plot_trend_line(ax, group_data, x_col, y_col, color):
+    """
+    Plot a smooth-ish trend line.
+
+    If statsmodels is available, use LOWESS for notebook-like smoothing.
+    Otherwise fall back to a simple connected line so the chart still renders.
+    """
+
+    try:
+        import statsmodels.api  # noqa: F401
+
+        sns.regplot(
+            x=x_col,
+            y=y_col,
+            data=group_data,
+            ax=ax,
+            scatter=False,
+            lowess=True,
+            color=color,
+            line_kws={"linewidth": 2.5},
+        )
+    except Exception:
+        sns.lineplot(
+            x=x_col,
+            y=y_col,
+            data=group_data,
+            ax=ax,
+            color=color,
+            linewidth=2.5,
+            marker="o",
+        )
+
+
 def _data_path():
     """Path to the latest combined CSV in project root/data."""
     data_dir = Path(__file__).resolve().parent.parent / "data"
@@ -294,7 +327,7 @@ def viz1_position_spend(bundle):
         group_data = merged_df[merged_df["position_group"] == pos_group]
         if not group_data.empty:
             sns.scatterplot(x="season", y="percentage_spend", data=group_data, ax=ax, color=color_map[pos_group], alpha=0.6, s=50, legend=False)
-            sns.regplot(x="season", y="percentage_spend", data=group_data, ax=ax, scatter=False, lowess=True, color=color_map[pos_group], line_kws={"linewidth": 2.5})
+            _plot_trend_line(ax, group_data, "season", "percentage_spend", color_map[pos_group])
         ax.set_title(pos_group, fontsize=14, fontweight="bold")
         ax.set_xlabel("")
         ax.set_ylabel("")
@@ -330,7 +363,7 @@ def viz2_free_agents_by_position(bundle):
         group_data = free_agent_counts[free_agent_counts["position_group"] == pos_group]
         if not group_data.empty:
             sns.scatterplot(x="season", y="player_count", data=group_data, ax=ax, color=color_map[pos_group], alpha=0.6, s=50, legend=False)
-            sns.regplot(x="season", y="player_count", data=group_data, ax=ax, scatter=False, lowess=True, color=color_map[pos_group], line_kws={"linewidth": 2.5})
+            _plot_trend_line(ax, group_data, "season", "player_count", color_map[pos_group])
         ax.set_title(pos_group, fontsize=14, fontweight="bold")
         ax.set_xlabel("")
         ax.set_ylabel("")
