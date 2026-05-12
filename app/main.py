@@ -58,14 +58,19 @@ def main():
             """
             ### How to fix this on Streamlit Cloud
 
-            1. Add `TRANSFER_DB_URL` in your app **Settings -> Secrets**.
+            1. Add one of these keys in app **Settings -> Secrets**:
+               `TRANSFER_DB_URL` or `DATABASE_URL`.
             2. Use a remote Postgres URL (not localhost).
             3. Ensure your database allows external connections.
 
             Example:
 
-            `TRANSFER_DB_URL = "postgresql://user:password@host:5432/dbname?sslmode=require"`
+            `DATABASE_URL = "postgresql://user:password@host:5432/dbname?sslmode=require"`
             """
+        )
+        st.info(
+            "If no secret/env DB URL is found, the app intentionally falls back "
+            "to localhost for local development only."
         )
         st.caption(f"SQLAlchemy error: {exc}")
         st.stop()

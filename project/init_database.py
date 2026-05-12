@@ -12,6 +12,23 @@ DB_HOST = 'localhost'
 DB_PORT = '5432'
 NEW_DB_NAME = 'romanian_football'
 
+
+def get_target_db_url() -> str:
+    """
+    Returns the destination database URL.
+
+    Resolution order:
+    1. TRANSFER_DB_URL
+    2. DATABASE_URL
+    3. Localhost defaults from this script
+    """
+
+    env_url = os.getenv("TRANSFER_DB_URL") or os.getenv("DATABASE_URL")
+    if env_url and env_url.strip():
+        return env_url.strip()
+
+    return f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{NEW_DB_NAME}"
+
 def get_latest_combined_csv_path() -> str:
     """Returns latest combined CSV path from /data."""
     data_dir = Path(__file__).resolve().parent.parent / "data"
@@ -25,6 +42,11 @@ def get_latest_combined_csv_path() -> str:
 
 def create_database():
     """Connects to default postgres DB to create the new project DB."""
+    # If a target URL is provided via env, assume DB already exists (common in cloud providers).
+    if os.getenv("TRANSFER_DB_URL") or os.getenv("DATABASE_URL"):
+        print("Remote DB URL detected via environment. Skipping CREATE DATABASE step.")
+        return
+
     # Connect to the default 'postgres' database
     url = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/postgres"
     engine = create_engine(url, isolation_level="AUTOCOMMIT")
@@ -56,8 +78,16 @@ def load_data_to_postgres():
         print(f"Error reading CSV file: {e}")
         return
 
-    # 3. Connect to the NEW database
-    db_url = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{NEW_DB_NAME}"
+    # 3. Connect to destination database (remote via env or local default)
+    db_url = get_target_db_url()
+    if db_url.startswith("postgres://"):
+        db_url = "postgresql://" + db_url[len("postgres://"):]
+
+    if "sslmode=" not in db_url and "localhost" not in db_url and "127.0.0.1" not in db_url:
+        delimiter = "&" if "?" in db_url else "?"
+        db_url = f"{db_url}{delimiter}sslmode=require"
+
+    print(f"Uploading into database host from URL: {db_url.split('@')[-1]}")
     engine = create_engine(db_url)
 
     # 4. Upload to SQL
